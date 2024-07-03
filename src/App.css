@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #da4281;
+
+    img {
+        width: 7rem;
+    }
+
+    h1{
+        text-align: center;
+        color: #da4281;
+        font-size: 4rem;
+        flex-grow: 1;
+    }
+}
+
+.equipePedagogique {
+    display: flex;
+    flex-direction: column;
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+.camarades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
